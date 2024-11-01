@@ -2,81 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <header>
-        <nav class="navbar">
-            <img src="your-logo.png" alt="Logo" class="logo">
-            <ul class="nav-links">
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="project">
+            <img src="project-image1.jpg" alt="Project 1 Image">
+            <h2>Project Title 1</h2>
+            <p>Brief description of Project 1 highlighting key features and technologies used.</p>
+            <a href="project-link1.html">View Project</a>
+        </div>
+        <div class="project">
+            <img src="project-image2.jpg" alt="Project 2 Image">
+            <h2>Project Title 2</h2>
+            <p>Brief description of Project 2 highlighting key features and technologies used.</p>
+            <a href="project-link2.html">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h1>Resume</h1>
+        <div class="resume-content">
+            <h2>Education</h2>
+            <p><strong>University Name</strong> - Bachelor's Degree in Field (Year)</p>
+            <h2>Experience</h2>
+            <p><strong>Company Name</strong> - Job Title (Year - Year)</p>
+            <ul>
+                <li>Responsibility or achievement 1</li>
+                <li>Responsibility or achievement 2</li>
             </ul>
-        </nav>
-    </header>
+            <!-- Add more education and experience as needed -->
+        </div>
+    </section>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Intro Section -->
-        <section class="intro">
-            <div class="intro-box">
-                <p>Photo Intro</p>
-            </div>
-            <div class="intro-box">
-                <p>Description of me</p>
-            </div>
-        </section>
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+      
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="portfolio">
-            <h2>Portfolio</h2>
-            <!-- Project Example -->
-            <div class="project">
-                <div class="project-banner">
-                    <p>Photo Banner - Capstone Project</p>
-                </div>
-                <div class="project-description">
-                    <p>Description</p>
-                </div>
-                <div class="project-photos">
-                    <div class="photo">Photo</div>
-                    <div class="photo">Photo</div>
-                </div>
-            </div>
-            <!-- Another Project Example -->
-            <div class="project">
-                <div class="project-banner">
-                    <p>Photo Banner - Hackathon</p>
-                </div>
-                <div class="project-description">
-                    <p>Description</p>
-                </div>
-                <div class="project-photos">
-                    <div class="photo">Photo</div>
-                    <div class="photo">Photo</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Resume Section -->
-        <section id="resume" class="resume">
-            <div class="resume-content">
-                <p>Text Resume Here</p>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <h2>Contact Camille Dubost:</h2>
-            <div class="contact-info">
-                <div class="contact-box">Email Address: camillecesardubost@gmail.com</div>
-                <div class="contact-box">Phone Number: +971 52 912 8453</div>
-            </div>
-        </section>
-    </main>
+    <script src="script.js"></script>
 </body>
 </html>

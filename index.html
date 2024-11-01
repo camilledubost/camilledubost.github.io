@@ -1,9 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <img src="your-logo.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <!-- Main Content -->
+    <main>
+        <!-- Intro Section -->
+        <section class="intro">
+            <div class="intro-box">
+                <p>Photo Intro</p>
+            </div>
+            <div class="intro-box">
+                <p>Description of me</p>
+            </div>
+        </section>
 
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Project Example -->
+            <div class="project">
+                <div class="project-banner">
+                    <p>Photo Banner - Capstone Project</p>
+                </div>
+                <div class="project-description">
+                    <p>Description</p>
+                </div>
+                <div class="project-photos">
+                    <div class="photo">Photo</div>
+                    <div class="photo">Photo</div>
+                </div>
+            </div>
+            <!-- Another Project Example -->
+            <div class="project">
+                <div class="project-banner">
+                    <p>Photo Banner - Hackathon</p>
+                </div>
+                <div class="project-description">
+                    <p>Description</p>
+                </div>
+                <div class="project-photos">
+                    <div class="photo">Photo</div>
+                    <div class="photo">Photo</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume">
+            <div class="resume-content">
+                <p>Text Resume Here</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Camille Dubost:</h2>
+            <div class="contact-info">
+                <div class="contact-box">Email Address: camillecesardubost@gmail.com</div>
+                <div class="contact-box">Phone Number: +971 52 912 8453</div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

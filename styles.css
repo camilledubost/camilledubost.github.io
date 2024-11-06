@@ -532,4 +532,63 @@ footer {
   margin-top: 5px;
 }
 
+/* Drones Project Section */
+#drones-project {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.drones-banner img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.drones-content {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  text-align: left;
+  color: #333333;
+}
+
+.drones-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.drones-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.drones-video-link {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.drones-video-link a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.drones-video-link a:hover {
+  text-decoration: underline;
+}
 

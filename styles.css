@@ -480,4 +480,56 @@ footer {
 .capstone-video-link a:hover {
   text-decoration: underline;
 }
+/* Fixed-Wing Project Section */
+#fixed-wing-project {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fixed-wing-banner img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.fixed-wing-content {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  text-align: left;
+  color: #333333;
+}
+
+.fixed-wing-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.fixed-wing-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 5px;
+}
+
 

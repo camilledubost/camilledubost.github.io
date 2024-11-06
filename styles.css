@@ -14,13 +14,12 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #ffffff; /* Neutral background */
-    border-bottom: 1px solid #ccc;
+    background-color: #333333; /* Same color as footer */
     padding: 10px 0;
 }
 
 #navbar-title {
-    color: #333333; /* Neutral dark color */
+    color: #ffffff; /* White color to contrast with dark background */
     font-weight: 700;
     font-size: 24px;
     text-decoration: none;
@@ -30,7 +29,7 @@ nav {
 
 #navbar-text {
     padding: 10px;
-    color: #333333;
+    color: #ffffff; /* White color to contrast with dark background */
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;

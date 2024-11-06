@@ -1,0 +1,13 @@
+ARISE - Aerial Robotics Capstone Competition - April 2024
+Roles : Team captain. Technical Lead on payload design
+
+Developed a payload system designed to deliver a total of 100 balls to 4 distinct targets. Created 4 lightweight fabric arms, each carrying 25 balls, which rotated downward for efficient release. Each arm featured a locking flap at the end that opened automatically based on orientation. Each arm was powered by a 35 kg high-torque servo, coupled with a 3D-printed gear mechanism, allowing the arms to rotate between 90 and 100 degrees. 
+
+Additionally, I built custom Li-ion batteries to extend range without added weight, assembling a 4S2P - 116.8V 8400mAh pack using 21700 Molicel P42A cells.
+
+Documented all technical specifications in a comprehensive 57-page report.
+
+
+Link video : https://www.youtube.com/watch?v=-QIHf5DdWGo 
+
+ 

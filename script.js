@@ -1,5 +1,9 @@
 // script.js
 
+function openVideo(url) {
+  window.open(url, '_blank');
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('contact-form');
   const successMessage = document.getElementById('success-message');

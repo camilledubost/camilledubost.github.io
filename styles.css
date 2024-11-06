@@ -418,3 +418,66 @@ footer {
   border-radius: 10px; /* Adds slight rounding on corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adds a soft shadow for depth */
 }
+
+/* Capstone Project Section */
+#capstone-project {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.capstone-banner img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.capstone-content {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  text-align: left;
+  color: #333333;
+}
+
+.capstone-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.capstone-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.capstone-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.capstone-gallery img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.capstone-video-link {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.capstone-video-link a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.capstone-video-link a:hover {
+  text-decoration: underline;
+}
+

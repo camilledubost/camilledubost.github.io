@@ -704,4 +704,61 @@ li {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+/* Consistent Section Styling */
+section {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Matches background styling with other sections */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Banner Alignment */
+.arduino-boat-banner img,
+.li-ion-battery-banner img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Content Alignment for Arduino Boat and Li-Ion Battery Sections */
+.arduino-boat-content,
+.li-ion-battery-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Aligns text to the left like other content sections */
+    padding: 0 20px;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Section Titles */
+.arduino-boat-content h2,
+.li-ion-battery-content h2 {
+    font-size: 36px; /* Matches other section title sizes */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Gallery and Video Alignment */
+.arduino-boat-gallery,
+.li-ion-battery-gallery,
+.video-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.arduino-boat-gallery img,
+.li-ion-battery-gallery img,
+.video-section iframe {
+    width: 100%;
+    max-width: 250px; /* Ensures images and videos align with other sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 

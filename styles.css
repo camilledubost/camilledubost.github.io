@@ -27,6 +27,7 @@ nav {
     flex-wrap: wrap;
     background-color: #333333;
     padding: 10px 5vw;
+    width: 100%;
 }
 
 #navbar-title {
@@ -74,12 +75,23 @@ nav img {
     margin: 10px auto;
 }
 
-/* Responsive Image Styling */
+/* Responsive Image and Video Styling */
 img, iframe {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Adds space after photos in project sections */
+}
+
+.video-section iframe {
+    max-width: 800px;
 }
 
 /* Section Styles */
@@ -116,22 +128,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* Contact Section */
-#contact ul {
-    list-style: none;
-    padding: 0;
-}
-
-#contact li {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-#contact a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
 /* Footer */
 footer {
     background-color: #333333;
@@ -139,25 +135,65 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 40px 5vw;
+    align-items: center;
+    padding: 20px 5vw;
+    width: 100%;
 }
 
 .footer-col {
     flex: 1 1 200px;
     margin: 10px;
+    text-align: center;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+}
+
+/* Footer Quick Links Styling */
+.footer-col #footer-text, .footer-col #footer-logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Fix for Extra Space Below Li-Ion Batteries Project */
+.li-ion-battery-content {
+    margin-bottom: 0;
 }
 
 /* Responsive Design - Media Queries */
 @media (max-width: 768px) {
-    nav {
+    nav, footer {
         flex-direction: column;
     }
 
-    #navbar-title {
+    #navbar-title, .footer-col h4 {
         font-size: 1.2rem;
     }
 
-    #navbar-text {
+    #navbar-text, .footer-col a {
         font-size: 0.9rem;
     }
 
@@ -178,12 +214,10 @@ footer {
     }
 
     footer {
-        flex-direction: column;
         align-items: center;
     }
 
     .footer-col {
         width: 100%;
-        text-align: center;
     }
 }

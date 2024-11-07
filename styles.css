@@ -138,6 +138,7 @@ footer {
     align-items: center;
     padding: 20px 5vw;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-col {
@@ -154,7 +155,6 @@ footer {
 .footer-col ul {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 .footer-col li {
@@ -171,11 +171,16 @@ footer {
     color: #ffffff;
 }
 
-/* Footer Quick Links Styling */
-.footer-col #footer-text, .footer-col #footer-logo {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
+/* Social Media Icon Styling */
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px; /* Adjust size to be more proportional */
+    height: auto;
+    border-radius: 5px;
 }
 
 /* Fix for Extra Space Below Li-Ion Batteries Project */

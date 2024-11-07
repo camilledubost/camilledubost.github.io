@@ -74,6 +74,21 @@ nav img {
     max-width: 800px;
     margin: 10px auto;
 }
+/* Center IntromePhoto.png in the About Section */
+#pre-about-photo {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0; /* Adds space above and below the photo */
+}
+
+#pre-about-photo img {
+    width: 80%; /* Adjust width as needed to fit nicely */
+    max-width: 800px; /* Limits the maximum width for large screens */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Adds slight rounding on corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adds a soft shadow for depth */
+}
+
 
 /* Responsive Image and Video Styling */
 img, iframe {

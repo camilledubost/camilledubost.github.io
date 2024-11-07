@@ -202,6 +202,45 @@ footer {
 .li-ion-battery-content {
     margin-bottom: 0;
 }
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Keeps links distributed across the width */
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #333333;
+    padding: 10px 5vw;
+    width: 100%;
+    z-index: 10; /* Ensures navbar is above other elements */
+    box-sizing: border-box;
+}
+
+#navbar-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+#navbar-text {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block; /* Ensures links are inline */
+}
+
+#navbar-text:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 40px;
+    margin: 0 10px;
+}
+
 
 /* Responsive Design - Media Queries */
 @media (max-width: 768px) {

@@ -48,6 +48,27 @@ nav {
     text-decoration: underline;
 }
 
+/* General Icon Styling */
+#linkedin-icon, #email-icon {
+    width: 40px; /* Set a fixed size for the icons */
+    height: auto;
+    border-radius: 5px; /* Optional: Slight rounding to match the style */
+    margin: 0 10px; /* Adds spacing between the icons */
+}
+
+/* Icon Hover Effect */
+#linkedin-icon:hover, #email-icon:hover {
+    filter: brightness(1.2); /* Lighten on hover for a subtle effect */
+}
+
+/* Responsive Icon Sizing */
+@media (max-width: 768px) {
+    #linkedin-icon, #email-icon {
+        width: 30px; /* Adjust icon size for smaller screens */
+    }
+}
+
+
 /* Banner Image Resizing */
 .capstone-banner img,
 .fixed-wing-banner img,

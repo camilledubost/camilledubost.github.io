@@ -11,23 +11,20 @@ html, body {
     line-height: 1.6;
 }
 
-/* Flexbox Layout for Containers */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-}
-
 /* Navigation Bar */
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     background-color: #333333;
     padding: 10px 5vw;
     width: 100%;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 66px;
+    margin-right: 10px;
 }
 
 #navbar-title {
@@ -35,8 +32,7 @@ nav {
     font-weight: 700;
     font-size: 24px;
     text-decoration: none;
-    margin-right: auto;
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 #navbar-text {
@@ -51,9 +47,15 @@ nav {
     text-decoration: underline;
 }
 
-nav img {
-    height: 40px;
-    margin: 0 10px;
+/* Banner Image Resizing */
+.capstone-banner img,
+.fixed-wing-banner img,
+.drones-banner img,
+.arduino-boat-banner img,
+.li-ion-battery-banner img {
+    width: 100%;
+    max-width: 800px; /* Adjust banner width to fit better */
+    height: auto;
 }
 
 /* Hero Section */
@@ -74,21 +76,21 @@ nav img {
     max-width: 800px;
     margin: 10px auto;
 }
-/* Center IntromePhoto.png in the About Section */
+
+/* About Section Photo */
 #pre-about-photo {
     display: flex;
     justify-content: center;
-    margin: 40px 0; /* Adds space above and below the photo */
+    margin: 40px 0;
 }
 
 #pre-about-photo img {
-    width: 80%; /* Adjust width as needed to fit nicely */
-    max-width: 800px; /* Limits the maximum width for large screens */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 10px; /* Adds slight rounding on corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adds a soft shadow for depth */
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
 
 /* Responsive Image and Video Styling */
 img, iframe {
@@ -102,7 +104,7 @@ img, iframe {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    margin-top: 20px; /* Adds space after photos in project sections */
+    margin-top: 20px;
 }
 
 .video-section iframe {
@@ -111,13 +113,18 @@ img, iframe {
 
 /* Section Styles */
 section {
-    padding: 5vw 5vw;
+    padding: 5vw;
     background-color: #f9f9f9;
     text-align: center;
 }
 
 /* Responsive Galleries */
-.gallery, .capstone-gallery, .arduino-boat-gallery, .li-ion-battery-gallery, .fixed-wing-gallery, .drones-gallery {
+.gallery,
+.capstone-gallery,
+.arduino-boat-gallery,
+.li-ion-battery-gallery,
+.fixed-wing-gallery,
+.drones-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -129,7 +136,7 @@ section {
     height: auto;
 }
 
-/* Specific Project and Content Styling */
+/* Project and Content Styling */
 .capstone-content, .arduino-boat-content, .li-ion-battery-content, .fixed-wing-content, .drones-content, .job-item {
     max-width: 800px;
     margin: 0 auto;
@@ -143,37 +150,50 @@ section {
     margin-bottom: 20px;
 }
 
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#contact li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
 /* Footer */
 footer {
     background-color: #333333;
     color: #ffffff;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5vw;
-    width: 100%;
+    padding: 10px 5vw;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .footer-col {
-    flex: 1 1 200px;
-    margin: 10px;
     text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+#footer-logo {
+    height: 40px; /* Adjusted to match navbar logo size */
+    margin-right: 10px;
 }
 
 .footer-col h4 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .footer-col ul {
     list-style: none;
     padding: 0;
-}
-
-.footer-col li {
-    margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer-col a {
@@ -193,54 +213,15 @@ footer {
 }
 
 .social-links img {
-    width: 30px; /* Adjust size to be more proportional */
+    width: 30px;
     height: auto;
     border-radius: 5px;
 }
 
-/* Fix for Extra Space Below Li-Ion Batteries Project */
+/* Fix for Extra Space Below Li-Ion Battery Project */
 .li-ion-battery-content {
     margin-bottom: 0;
 }
-/* Navbar */
-nav {
-    display: flex;
-    justify-content: space-between; /* Keeps links distributed across the width */
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #333333;
-    padding: 10px 5vw;
-    width: 100%;
-    z-index: 10; /* Ensures navbar is above other elements */
-    box-sizing: border-box;
-}
-
-#navbar-title {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 24px;
-    text-decoration: none;
-    margin-right: auto;
-}
-
-#navbar-text {
-    padding: 10px;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    display: inline-block; /* Ensures links are inline */
-}
-
-#navbar-text:hover {
-    text-decoration: underline;
-}
-
-nav img {
-    height: 40px;
-    margin: 0 10px;
-}
-
 
 /* Responsive Design - Media Queries */
 @media (max-width: 768px) {

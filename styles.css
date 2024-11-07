@@ -48,7 +48,32 @@ nav img {
 #landing-sight {
     color: #333333;
     text-align: center;
-    margin: 50px 0;
+    margin: 50px 0;/* General Banner Styling */
+.arduino-boat-banner img,
+.li-ion-battery-banner img {
+    width: 100%;
+    max-width: 800px; /* Ensures banner images don’t exceed a set width */
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Video Section Styling */
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 800px; /* Limits the video width to match other content */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 }
 
 #profile-picture {
@@ -653,5 +678,30 @@ li {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* General Banner Styling */
+.arduino-boat-banner img,
+.li-ion-battery-banner img {
+    width: 100%;
+    max-width: 800px; /* Ensures banner images don’t exceed a set width */
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Video Section Styling */
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 800px; /* Limits the video width to match other content */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 

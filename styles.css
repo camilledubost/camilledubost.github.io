@@ -234,6 +234,23 @@ footer {
     margin: 0 10px;
 }
 
+
+#about-section {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  gap: 20px; /* Add some space between the text and the image */
+}
+
+#landing-sight {
+  max-width: 50%; /* Adjust the width of the text section as needed */
+}
+
+#pre-about-photo img {
+  max-width: 100%; /* Make sure the image fits within its container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+
 .social-links img {
     width: 30px;
     height: auto;

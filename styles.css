@@ -277,4 +277,12 @@ footer {
     height: auto;
 }
 
+#contact .contact-info p {
+  margin: 5px 0; /* Adds a small space between the lines */
+}
+
+#contact a {
+  text-decoration: none; /* Removes underline from links, optional */
+  color: inherit; /* Inherits color from surrounding text */
+}
 

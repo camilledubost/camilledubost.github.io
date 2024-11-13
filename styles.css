@@ -23,7 +23,7 @@ nav {
 }
 
 #logo {
-    height: clamp(30px, 6vw, 50px);
+    height: clamp(20px, 4vw, 35px);
     margin-right: 10px;
 }
 

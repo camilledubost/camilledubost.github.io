@@ -23,9 +23,10 @@ nav {
 }
 
 #logo {
-    height: 66px;
+    height: clamp(40px, 8vw, 66px);
     margin-right: 10px;
 }
+
 
 #navbar-title {
     color: #ffffff;

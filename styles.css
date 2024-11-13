@@ -287,3 +287,16 @@ footer {
   color: inherit; /* Inherits color from surrounding text */
 }
 
+
+
+/* Navigation Bar Logo */
+#logo {
+    height: 66px;
+    margin-right: 10px;
+}
+
+/* Adjust logos on large screens */
+@media screen and (min-width: 1200px) {
+    #logo {
+        height: 50px;
+    }

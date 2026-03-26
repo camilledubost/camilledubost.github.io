@@ -146,7 +146,7 @@ section {
 }
 
 .gallery img, .capstone-gallery img, .arduino-boat-gallery img, .li-ion-battery-gallery img, .fixed-wing-gallery img, .drones-gallery img {
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
 }
 
